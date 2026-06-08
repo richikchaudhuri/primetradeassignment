@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large regenerable intermediate (rebuilt by the notebook from the two source CSVs)
+csv_files/merged_trades_sentiment.csv
+
+# Raw dataset — not committed (too large for GitHub); place it here to reproduce
+csv_files/historical_data.csv

@@ -1,0 +1,10 @@
+# Core analysis stack (developed on Python 3.14; 3.10+ recommended)
+pandas==2.3.3
+numpy==2.4.0
+scipy==1.16.3
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Notebook execution / HTML export (only needed to re-run notebook_1.ipynb)
+nbconvert>=7.0
+ipykernel>=6.0

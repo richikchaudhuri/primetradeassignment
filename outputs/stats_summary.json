@@ -1,0 +1,133 @@
+{
+  "regime_summary": [
+    {
+      "regime": "Extreme Fear",
+      "n_acct_days": 154,
+      "median_net_pnl": 306.97,
+      "ci_lo": 123.17,
+      "ci_hi": 881.57,
+      "mean_net_pnl": 6796.01,
+      "win_rate": 0.65
+    },
+    {
+      "regime": "Fear",
+      "n_acct_days": 635,
+      "median_net_pnl": 98.1,
+      "ci_lo": 38.24,
+      "ci_hi": 172.03,
+      "mean_net_pnl": 4373.08,
+      "win_rate": 0.59
+    },
+    {
+      "regime": "Neutral",
+      "n_acct_days": 373,
+      "median_net_pnl": 157.06,
+      "ci_lo": 93.95,
+      "ci_hi": 260.42,
+      "mean_net_pnl": 3377.93,
+      "win_rate": 0.63
+    },
+    {
+      "regime": "Greed",
+      "n_acct_days": 657,
+      "median_net_pnl": 160.25,
+      "ci_lo": 46.33,
+      "ci_hi": 249.41,
+      "mean_net_pnl": 3622.76,
+      "win_rate": 0.6
+    },
+    {
+      "regime": "Extreme Greed",
+      "n_acct_days": 524,
+      "median_net_pnl": 360.78,
+      "ci_lo": 241.14,
+      "ci_hi": 519.97,
+      "mean_net_pnl": 4937.94,
+      "win_rate": 0.68
+    }
+  ],
+  "behaviour": [
+    {
+      "regime": "Extreme Fear",
+      "n_trades": 21303,
+      "avg_size_usd": 5465.2576,
+      "median_size_usd": 789.07,
+      "buy_frac": 0.4663,
+      "long_frac": 0.6189,
+      "open_frac": 0.4345,
+      "liq_rate": 0.0
+    },
+    {
+      "regime": "Fear",
+      "n_trades": 61510,
+      "avg_size_usd": 7906.821,
+      "median_size_usd": 699.255,
+      "buy_frac": 0.4767,
+      "long_frac": 0.5546,
+      "open_frac": 0.4595,
+      "liq_rate": 0.0
+    },
+    {
+      "regime": "Neutral",
+      "n_trades": 39563,
+      "avg_size_usd": 4846.4909,
+      "median_size_usd": 556.81,
+      "buy_frac": 0.5341,
+      "long_frac": 0.5584,
+      "open_frac": 0.476,
+      "liq_rate": 0.0
+    },
+    {
+      "regime": "Greed",
+      "n_trades": 48668,
+      "avg_size_usd": 5537.6416,
+      "median_size_usd": 555.0,
+      "buy_frac": 0.4928,
+      "long_frac": 0.3161,
+      "open_frac": 0.394,
+      "liq_rate": 0.0002
+    },
+    {
+      "regime": "Extreme Greed",
+      "n_trades": 40180,
+      "avg_size_usd": 3164.8791,
+      "median_size_usd": 500.2,
+      "buy_frac": 0.4561,
+      "long_frac": 0.3466,
+      "open_frac": 0.3511,
+      "liq_rate": 0.0
+    }
+  ],
+  "fear_vs_greed_mwu": {
+    "U": 444821.5,
+    "p": 0.08835309144326843,
+    "delta": -0.045251762968591236,
+    "n1": 789,
+    "n2": 1181
+  },
+  "kruskal_5class": {
+    "H": 20.761014629373708,
+    "p": 0.00035315436306277196,
+    "k": 5
+  },
+  "per_account_paired": {
+    "n": 31,
+    "better_in_fear": 17,
+    "wilcoxon_W": 153.0,
+    "wilcoxon_p": 0.1631073882292975,
+    "median_fear": 133.107232,
+    "median_greed": 233.95735499999998
+  },
+  "liquidation_per_10k": {
+    "Extreme Fear": 0.0,
+    "Fear": 0.0,
+    "Neutral": 0.0,
+    "Greed": 1.849,
+    "Extreme Greed": 0.0
+  },
+  "extremes": {
+    "share_pnl": 0.3616,
+    "share_days": 0.2894
+  },
+  "net_pnl_total": 10051101.222870268
+}

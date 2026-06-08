@@ -1,0 +1,24 @@
+{
+  "trades": 211224,
+  "accounts": 32,
+  "coins": 246,
+  "match_rate": 1.0,
+  "date_min": "2023-04-30",
+  "date_max": "2025-05-01",
+  "calendar_days": 476,
+  "net_pnl_total": 10051101.22,
+  "per_regime_trades": {
+    "Extreme Fear": 21303,
+    "Fear": 61510,
+    "Neutral": 39563,
+    "Greed": 48668,
+    "Extreme Greed": 40180
+  },
+  "per_regime_account_days": {
+    "Extreme Fear": 154,
+    "Fear": 635,
+    "Neutral": 373,
+    "Greed": 657,
+    "Extreme Greed": 524
+  }
+}
